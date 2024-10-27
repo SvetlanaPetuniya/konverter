@@ -5,7 +5,7 @@ from tkinter import ttk
 
 
 def exchange():
-    code=entry.get().upper()
+    code=combobox.get()
 
     if code:
         try:
